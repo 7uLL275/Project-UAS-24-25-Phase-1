@@ -19,7 +19,6 @@ struct Snack {
     int harga;
 };
 
-// Daftar film
 const Film daftarFilm[] = {
     {"Avengers: Endgame", 50000},
     {"Spider-Man: No Way Home", 50000},
@@ -74,7 +73,6 @@ void tampilkanDaftarFilm() {
     }
 }
 
-// Fungsi untuk menampilkan daftar snack
 void tampilkanDaftarSnack() {
     cout << "===============================" << endl;
     cout << "          DAFTAR SNACK         " << endl;
